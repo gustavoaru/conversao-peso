@@ -32,4 +32,4 @@ spec:
   - port: 80            # Porta local
     targetPort: 80      # Porta do serviço
     nodePort: 30000     # Porta do bind com o kind
-  type: NodePort
+  type: LoadBalancer
